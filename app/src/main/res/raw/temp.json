@@ -1,0 +1,3216 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "conditions": 1,
+      "hourly": 1
+    }
+  },
+  "current_observation": {
+    "image": {
+      "url": "http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+      "title": "Weather Underground",
+      "link": "http://www.wunderground.com"
+    },
+    "display_location": {
+      "full": "Hillsborough, NJ",
+      "city": "Hillsborough",
+      "state": "NJ",
+      "state_name": "New Jersey",
+      "country": "US",
+      "country_iso3166": "US",
+      "zip": "08844",
+      "magic": "1",
+      "wmo": "99999",
+      "latitude": "40.50000000",
+      "longitude": "-74.69000244",
+      "elevation": "36.3"
+    },
+    "observation_location": {
+      "full": "Hillsborough Township, Hillsborough Township, New Jersey",
+      "city": "Hillsborough Township, Hillsborough Township",
+      "state": "New Jersey",
+      "country": "US",
+      "country_iso3166": "US",
+      "latitude": "40.498543",
+      "longitude": "-74.652634",
+      "elevation": "0 ft"
+    },
+    "estimated": {},
+    "station_id": "KNJHILLS33",
+    "observation_time": "Last Updated on September 12, 3:41 AM EDT",
+    "observation_time_rfc822": "Tue, 12 Sep 2017 03:41:15 -0400",
+    "observation_epoch": "1505202075",
+    "local_time_rfc822": "Tue, 12 Sep 2017 04:02:35 -0400",
+    "local_epoch": "1505203355",
+    "local_tz_short": "EDT",
+    "local_tz_long": "America/New_York",
+    "local_tz_offset": "-0400",
+    "weather": "Partly Cloudy",
+    "temperature_string": "54.7 F (12.6 C)",
+    "temp_f": 54.7,
+    "temp_c": 12.6,
+    "relative_humidity": "95%",
+    "wind_string": "From the SSW at 1.2 MPH Gusting to 1.9 MPH",
+    "wind_dir": "SSW",
+    "wind_degrees": 210,
+    "wind_mph": 1.2,
+    "wind_gust_mph": "1.9",
+    "wind_kph": 1.9,
+    "wind_gust_kph": "3.1",
+    "pressure_mb": "1018",
+    "pressure_in": "30.06",
+    "pressure_trend": "0",
+    "dewpoint_string": "53 F (12 C)",
+    "dewpoint_f": 53,
+    "dewpoint_c": 12,
+    "heat_index_string": "NA",
+    "heat_index_f": "NA",
+    "heat_index_c": "NA",
+    "windchill_string": "NA",
+    "windchill_f": "NA",
+    "windchill_c": "NA",
+    "feelslike_string": "54.7 F (12.6 C)",
+    "feelslike_f": "54.7",
+    "feelslike_c": "12.6",
+    "visibility_mi": "10.0",
+    "visibility_km": "16.1",
+    "solarradiation": "--",
+    "UV": "0",
+    "precip_1hr_string": "-999.00 in ( 0 mm)",
+    "precip_1hr_in": "-999.00",
+    "precip_1hr_metric": " 0",
+    "precip_today_string": "0.00 in (0 mm)",
+    "precip_today_in": "0.00",
+    "precip_today_metric": "0",
+    "icon": "partlycloudy",
+    "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+    "forecast_url": "http://www.wunderground.com/US/NJ/Hillsborough.html",
+    "history_url": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KNJHILLS33",
+    "ob_url": "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=40.498543,-74.652634",
+    "nowcast": ""
+  },
+  "hourly_forecast": [
+    {
+      "FCTTIME": {
+        "hour": "5",
+        "hour_padded": "05",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505206800",
+        "pretty": "5:00 AM EDT on September 12, 2017",
+        "civil": "5:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "51",
+        "metric": "11"
+      },
+      "dewpoint": {
+        "english": "51",
+        "metric": "11"
+      },
+      "condition": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+      "fctcode": "1",
+      "sky": "22",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "297"
+      },
+      "wx": "Mostly Clear",
+      "uvi": "0",
+      "humidity": "98",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "51",
+        "metric": "11"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.08",
+        "metric": "1019"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "6",
+        "hour_padded": "06",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505210400",
+        "pretty": "6:00 AM EDT on September 12, 2017",
+        "civil": "6:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "51",
+        "metric": "11"
+      },
+      "dewpoint": {
+        "english": "51",
+        "metric": "11"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "30",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "303"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "99",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "51",
+        "metric": "11"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.07",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "7",
+        "hour_padded": "07",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505214000",
+        "pretty": "7:00 AM EDT on September 12, 2017",
+        "civil": "7:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "52",
+        "metric": "11"
+      },
+      "dewpoint": {
+        "english": "51",
+        "metric": "11"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "43",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "301"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "95",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "52",
+        "metric": "11"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.07",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "8",
+        "hour_padded": "08",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505217600",
+        "pretty": "8:00 AM EDT on September 12, 2017",
+        "civil": "8:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "57",
+        "metric": "14"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "41",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "304"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "90",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "57",
+        "metric": "14"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "1",
+      "mslp": {
+        "english": "30.06",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "9",
+        "hour_padded": "09",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505221200",
+        "pretty": "9:00 AM EDT on September 12, 2017",
+        "civil": "9:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "63",
+        "metric": "17"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "46",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "NW",
+        "degrees": "316"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "2",
+      "humidity": "79",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "63",
+        "metric": "17"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "1",
+      "mslp": {
+        "english": "30.06",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "10",
+        "hour_padded": "10",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505224800",
+        "pretty": "10:00 AM EDT on September 12, 2017",
+        "civil": "10:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "68",
+        "metric": "20"
+      },
+      "dewpoint": {
+        "english": "57",
+        "metric": "14"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "43",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "NW",
+        "degrees": "320"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "3",
+      "humidity": "66",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "68",
+        "metric": "20"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.06",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "11",
+        "hour_padded": "11",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505228400",
+        "pretty": "11:00 AM EDT on September 12, 2017",
+        "civil": "11:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "72",
+        "metric": "22"
+      },
+      "dewpoint": {
+        "english": "57",
+        "metric": "14"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "44",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "NW",
+        "degrees": "309"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "5",
+      "humidity": "58",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "72",
+        "metric": "22"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.05",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "12",
+        "hour_padded": "12",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505232000",
+        "pretty": "12:00 PM EDT on September 12, 2017",
+        "civil": "12:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "76",
+        "metric": "24"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "45",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "286"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "6",
+      "humidity": "51",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "76",
+        "metric": "24"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.03",
+        "metric": "1017"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "13",
+        "hour_padded": "13",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505235600",
+        "pretty": "1:00 PM EDT on September 12, 2017",
+        "civil": "1:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "77",
+        "metric": "25"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "46",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "271"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "7",
+      "humidity": "47",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "77",
+        "metric": "25"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.01",
+        "metric": "1016"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "14",
+        "hour_padded": "14",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505239200",
+        "pretty": "2:00 PM EDT on September 12, 2017",
+        "civil": "2:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "78",
+        "metric": "26"
+      },
+      "dewpoint": {
+        "english": "55",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "47",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "268"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "6",
+      "humidity": "45",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "78",
+        "metric": "26"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "30.0",
+        "metric": "1016"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "15",
+        "hour_padded": "15",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505242800",
+        "pretty": "3:00 PM EDT on September 12, 2017",
+        "civil": "3:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "79",
+        "metric": "26"
+      },
+      "dewpoint": {
+        "english": "55",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "49",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "257"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "5",
+      "humidity": "44",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "79",
+        "metric": "26"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.98",
+        "metric": "1015"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "16",
+        "hour_padded": "16",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505246400",
+        "pretty": "4:00 PM EDT on September 12, 2017",
+        "civil": "4:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "79",
+        "metric": "26"
+      },
+      "dewpoint": {
+        "english": "55",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "47",
+      "wspd": {
+        "english": "5",
+        "metric": "8"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "261"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "3",
+      "humidity": "43",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "79",
+        "metric": "26"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.96",
+        "metric": "1015"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "17",
+        "hour_padded": "17",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505250000",
+        "pretty": "5:00 PM EDT on September 12, 2017",
+        "civil": "5:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "79",
+        "metric": "26"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "45",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "255"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "1",
+      "humidity": "45",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "79",
+        "metric": "26"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "18",
+        "hour_padded": "18",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505253600",
+        "pretty": "6:00 PM EDT on September 12, 2017",
+        "civil": "6:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "77",
+        "metric": "25"
+      },
+      "dewpoint": {
+        "english": "57",
+        "metric": "14"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "49",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "253"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "50",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "77",
+        "metric": "25"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.93",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "19",
+        "hour_padded": "19",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505257200",
+        "pretty": "7:00 PM EDT on September 12, 2017",
+        "civil": "7:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "72",
+        "metric": "22"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "55",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "237"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "58",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "72",
+        "metric": "22"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.93",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "20",
+        "hour_padded": "20",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505260800",
+        "pretty": "8:00 PM EDT on September 12, 2017",
+        "civil": "8:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "68",
+        "metric": "20"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "49",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "232"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "65",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "68",
+        "metric": "20"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "21",
+        "hour_padded": "21",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505264400",
+        "pretty": "9:00 PM EDT on September 12, 2017",
+        "civil": "9:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "65",
+        "metric": "18"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Mostly Cloudy",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "62",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "239"
+      },
+      "wx": "Mostly Cloudy",
+      "uvi": "0",
+      "humidity": "72",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "65",
+        "metric": "18"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "22",
+        "hour_padded": "22",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505268000",
+        "pretty": "10:00 PM EDT on September 12, 2017",
+        "civil": "10:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "63",
+        "metric": "17"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Mostly Cloudy",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "63",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "250"
+      },
+      "wx": "Mostly Cloudy",
+      "uvi": "0",
+      "humidity": "77",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "63",
+        "metric": "17"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.95",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "23",
+        "hour_padded": "23",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "254",
+        "isdst": "1",
+        "epoch": "1505271600",
+        "pretty": "11:00 PM EDT on September 12, 2017",
+        "civil": "11:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Tuesday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "61",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "55",
+        "metric": "13"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "59",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "254"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "80",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "61",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "0",
+        "hour_padded": "00",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505275200",
+        "pretty": "12:00 AM EDT on September 13, 2017",
+        "civil": "12:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "60",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "55",
+        "metric": "13"
+      },
+      "condition": "Mostly Cloudy",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "62",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "255"
+      },
+      "wx": "Mostly Cloudy",
+      "uvi": "0",
+      "humidity": "82",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "60",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "1",
+        "hour_padded": "01",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505278800",
+        "pretty": "1:00 AM EDT on September 13, 2017",
+        "civil": "1:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "60",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Mostly Cloudy",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "60",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "254"
+      },
+      "wx": "Mostly Cloudy",
+      "uvi": "0",
+      "humidity": "81",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "60",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "2",
+        "hour_padded": "02",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505282400",
+        "pretty": "2:00 AM EDT on September 13, 2017",
+        "civil": "2:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "60",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Mostly Cloudy",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "60",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "258"
+      },
+      "wx": "Mostly Cloudy",
+      "uvi": "0",
+      "humidity": "82",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "60",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "3",
+        "hour_padded": "03",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505286000",
+        "pretty": "3:00 AM EDT on September 13, 2017",
+        "civil": "3:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "59",
+        "metric": "15"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "45",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "266"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "84",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "59",
+        "metric": "15"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.93",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "4",
+        "hour_padded": "04",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505289600",
+        "pretty": "4:00 AM EDT on September 13, 2017",
+        "civil": "4:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "58",
+        "metric": "14"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "39",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "257"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "86",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "58",
+        "metric": "14"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.93",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "5",
+        "hour_padded": "05",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505293200",
+        "pretty": "5:00 AM EDT on September 13, 2017",
+        "civil": "5:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "57",
+        "metric": "14"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "39",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "253"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "88",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "57",
+        "metric": "14"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.93",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "6",
+        "hour_padded": "06",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505296800",
+        "pretty": "6:00 AM EDT on September 13, 2017",
+        "civil": "6:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "57",
+        "metric": "14"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "42",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "269"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "88",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "57",
+        "metric": "14"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.93",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "7",
+        "hour_padded": "07",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505300400",
+        "pretty": "7:00 AM EDT on September 13, 2017",
+        "civil": "7:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "57",
+        "metric": "14"
+      },
+      "dewpoint": {
+        "english": "54",
+        "metric": "12"
+      },
+      "condition": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "fctcode": "1",
+      "sky": "26",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "272"
+      },
+      "wx": "Mostly Sunny",
+      "uvi": "0",
+      "humidity": "89",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "57",
+        "metric": "14"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "6",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "8",
+        "hour_padded": "08",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505304000",
+        "pretty": "8:00 AM EDT on September 13, 2017",
+        "civil": "8:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "61",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "56",
+        "metric": "13"
+      },
+      "condition": "Clear",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+      "fctcode": "1",
+      "sky": "29",
+      "wspd": {
+        "english": "1",
+        "metric": "2"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "284"
+      },
+      "wx": "Mostly Sunny",
+      "uvi": "0",
+      "humidity": "84",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "61",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "4",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "9",
+        "hour_padded": "09",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505307600",
+        "pretty": "9:00 AM EDT on September 13, 2017",
+        "civil": "9:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "65",
+        "metric": "18"
+      },
+      "dewpoint": {
+        "english": "59",
+        "metric": "15"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "52",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "268"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "1",
+      "humidity": "81",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "65",
+        "metric": "18"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.95",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "10",
+        "hour_padded": "10",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505311200",
+        "pretty": "10:00 AM EDT on September 13, 2017",
+        "civil": "10:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "69",
+        "metric": "21"
+      },
+      "dewpoint": {
+        "english": "60",
+        "metric": "16"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "51",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "268"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "3",
+      "humidity": "73",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "69",
+        "metric": "21"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.95",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "11",
+        "hour_padded": "11",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505314800",
+        "pretty": "11:00 AM EDT on September 13, 2017",
+        "civil": "11:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "71",
+        "metric": "22"
+      },
+      "dewpoint": {
+        "english": "60",
+        "metric": "16"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "53",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "252"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "5",
+      "humidity": "67",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "71",
+        "metric": "22"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.94",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "12",
+        "hour_padded": "12",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505318400",
+        "pretty": "12:00 PM EDT on September 13, 2017",
+        "civil": "12:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "74",
+        "metric": "23"
+      },
+      "dewpoint": {
+        "english": "62",
+        "metric": "17"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "55",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "244"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "6",
+      "humidity": "65",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "74",
+        "metric": "23"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.93",
+        "metric": "1014"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "13",
+        "hour_padded": "13",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505322000",
+        "pretty": "1:00 PM EDT on September 13, 2017",
+        "civil": "1:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "75",
+        "metric": "24"
+      },
+      "dewpoint": {
+        "english": "62",
+        "metric": "17"
+      },
+      "condition": "Mostly Cloudy",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "64",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "228"
+      },
+      "wx": "Mostly Cloudy",
+      "uvi": "5",
+      "humidity": "65",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "75",
+        "metric": "24"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.91",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "14",
+        "hour_padded": "14",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505325600",
+        "pretty": "2:00 PM EDT on September 13, 2017",
+        "civil": "2:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "76",
+        "metric": "24"
+      },
+      "dewpoint": {
+        "english": "64",
+        "metric": "18"
+      },
+      "condition": "Mostly Cloudy",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "66",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "215"
+      },
+      "wx": "Mostly Cloudy",
+      "uvi": "5",
+      "humidity": "67",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "76",
+        "metric": "24"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "15",
+        "hour_padded": "15",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505329200",
+        "pretty": "3:00 PM EDT on September 13, 2017",
+        "civil": "3:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "76",
+        "metric": "24"
+      },
+      "dewpoint": {
+        "english": "64",
+        "metric": "18"
+      },
+      "condition": "Overcast",
+      "icon": "cloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+      "fctcode": "4",
+      "sky": "82",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "SSW",
+        "degrees": "201"
+      },
+      "wx": "Cloudy",
+      "uvi": "3",
+      "humidity": "67",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "76",
+        "metric": "24"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.88",
+        "metric": "1012"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "16",
+        "hour_padded": "16",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "13",
+        "mday_padded": "13",
+        "yday": "255",
+        "isdst": "1",
+        "epoch": "1505332800",
+        "pretty": "4:00 PM EDT on September 13, 2017",
+        "civil": "4:00 PM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Wednesday",
+        "weekday_name_night": "Wednesday Night",
+        "weekday_name_abbrev": "Wed",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "76",
+        "metric": "24"
+      },
+      "dewpoint": {
+        "english": "65",
+        "metric": "18"
+      },
+      "condition": "Overcast",
+      "icon": "cloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+      "fctcode": "4",
+      "sky": "81",
+      "wspd": {
+        "english": "5",
+        "metric": "8"
+      },
+      "wdir": {
+        "dir": "SSW",
+        "degrees": "206"
+      },
+      "wx": "Cloudy",
+      "uvi": "2",
+      "humidity": "69",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "76",
+        "metric": "24"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "15",
+      "mslp": {
+        "english": "29.86",
+        "metric": "1011"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "7",
+        "hour_padded": "07",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "256",
+        "isdst": "1",
+        "epoch": "1505214000",
+        "pretty": "7:00 AM EDT on September 12, 2017",
+        "civil": "7:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Thursday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "53",
+        "metric": "12"
+      },
+      "dewpoint": {
+        "english": "51",
+        "metric": "11"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "54",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "303"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "94",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "53",
+        "metric": "12"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "6",
+      "mslp": {
+        "english": "30.06",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "7",
+        "hour_padded": "07",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "257",
+        "isdst": "1",
+        "epoch": "1505214000",
+        "pretty": "7:00 AM EDT on September 12, 2017",
+        "civil": "7:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Friday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "53",
+        "metric": "12"
+      },
+      "dewpoint": {
+        "english": "51",
+        "metric": "11"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "54",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "303"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "94",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "53",
+        "metric": "12"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "6",
+      "mslp": {
+        "english": "30.06",
+        "metric": "1018"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "7",
+        "hour_padded": "07",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2017",
+        "mon": "9",
+        "mon_padded": "09",
+        "mon_abbrev": "Sep",
+        "mday": "12",
+        "mday_padded": "12",
+        "yday": "258",
+        "isdst": "1",
+        "epoch": "1505214000",
+        "pretty": "7:00 AM EDT on September 12, 2017",
+        "civil": "7:00 AM",
+        "month_name": "September",
+        "month_name_abbrev": "Sep",
+        "weekday_name": "Saturday",
+        "weekday_name_night": "Tuesday Night",
+        "weekday_name_abbrev": "Tue",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "53",
+        "metric": "12"
+      },
+      "dewpoint": {
+        "english": "51",
+        "metric": "11"
+      },
+      "condition": "Partly Cloudy",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "54",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "WNW",
+        "degrees": "303"
+      },
+      "wx": "Partly Cloudy",
+      "uvi": "0",
+      "humidity": "94",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "53",
+        "metric": "12"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "6",
+      "mslp": {
+        "english": "30.06",
+        "metric": "1018"
+      }
+    }
+  ]
+}
