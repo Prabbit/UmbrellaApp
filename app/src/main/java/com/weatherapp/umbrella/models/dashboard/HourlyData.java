@@ -59,9 +59,9 @@ public class HourlyData implements Parcelable {
     public String getTemp(SharedPreferences sharedPrefs){
         int unitPref = sharedPrefs.getInt(UNIT, US);
         if (unitPref==US) {
-            return tempF;
+            return tempF+ (char) 0x00B0;
         }
-        return tempC;
+        return tempC+ (char) 0x00B0;
     }
 
     public String getDay() {

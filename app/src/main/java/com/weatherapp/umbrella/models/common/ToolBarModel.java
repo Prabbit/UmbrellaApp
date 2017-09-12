@@ -34,9 +34,9 @@ public class ToolBarModel implements Parcelable {
     public String getTemperature(SharedPreferences sharedPrefs) {
         int unitPref = sharedPrefs.getInt(UNIT,US);
         if (unitPref==US){
-            return degreeF;
+            return degreeF+ (char) 0x00B0;
         }
-        return degreeC;
+        return degreeC + (char) 0x00B0;
     }
 
     public void setDegreeF(String degreeF) {
